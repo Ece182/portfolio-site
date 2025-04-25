@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header">
+    <!-- Landing Page -->
+
+    <section id= "home" class="landing">
+      <nav class="navbar">
+
+        <div class="navbar-icon">
+        </div>
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#experiences">My Experiences</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="content">
+          <img src="/images/mask.png" alt="Your Profile" class="profile-image">
+          <h1>Welcome to my digital humble abode</h1>
+          <p>Hi, I am an independent designer.</p>
+          <a href="#contact" class="btn">Let's Connect!</a>
+      </div>
+  </section>
+    <div class="work-marquee">
+      <p>MY WORKS   MY WORKS     MY WORKS    MY WORKS    MY WORKS    MY WORKS    MY WORKS    MY WORKS    MY WORKS    MY WORKS</p>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h3>Curated Work</h3>
+    <h1 id="projects-heading">Featured Projects</h1>
+    <p class="subtitle">Explore my work and achievements</p>
+    
+    <!-- Project 1 -->
+    <div class="project">
+        <div class="project-info">
+            <p class="date">May 2024</p>
+            <h3>AR/VR</h3>
+            <ul>
+                <li>Interactive experience</li>
+                <li>Immersive environments</li>
+                <li>Real-world applications</li>
+            </ul>
+            <a href="#" class="btn">See the Project</a>
+        </div>
+        <div class="project-image">
+            <img src="/images/vr.png" alt="Project Image">
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-info">
+            <p class="date">July 2023</p>
+            <h3>Project Management</h3>
+            <ul>
+                <li>Task tracking</li>
+                <li>Collaboration</li>
+                <li>Performance analytics</li>
+            </ul>
+            <a href="#" class="btn">See the Project</a>
+        </div>
+        <div class="project-image">
+            <img src="/images/tech.png" alt="Project Image">
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-info">
+            <p class="date">August 2023</p>
+            <h3>Web Application</h3>
+            <ul>
+                <li>Interactive challenges.</li>
+                <li>Instant feedback.</li>
+                <li>Gamification</li>
+            </ul>
+            <a href="#" class="btn">See the Project</a>
+        </div>
+        <div class="project-image">
+            <img src="/images/code.png" alt="Project Image">
+        </div>
+    </div>
+</section>
+
+
+<!-- About-->
+<section id="about-me" class="about-me">
+  <h3>About Me</h3>
+  <h1>Know who I am</h1>
+  <div class="about-content">
+    <p>
+      I’m a student at Middle East Technical University (METU), studying Computer Education and Instructional Technology (CEIT). I’m passionate about coding, working on innovative projects, and constantly improving my skills. Alongside my studies, I work as a team leader, guiding projects and fostering collaboration. I have a deep interest in project management and love turning ideas into impactful solutions.
+    </p>
+    <div class="image-container">
+      <img src="/images/aboutme.jpeg" alt="Your Photo">
+    </div>
+  </div>
+  <div class="btn-wrapper">
+    <button class="about-btn">Know More →</button>
+  </div>
+
+  <button class="tablet-only cta-tablet">My Portfolio</button>
+</section>
+
+
+<!-- Experience Section -->
+<section id="experiences" class="experience">
+  <h2>My Experiences</h2>
+  <h3>Where I've Been Employed</h3>
+  <div class="experience-table">
+    <table>
+      <tr>
+        <td><strong>June 2023 – August 2023</strong></td>
+        <td>Intern Designer</td>
+        <td>Designed user-friendly and innovative interfaces for educational applications, focusing on user experience and accessibility.</td>
+      </tr>
+      <tr>
+        <td><strong>September 2023 – November 2023</strong> </td>
+        <td>Intern Programmer</td>
+        <td>Developed and maintained educational tools using modern programming languages, ensuring high-quality and efficient solutions.</td>
+      </tr>
+      <tr>
+        <td><strong>September 2024 – Present</strong></td>
+        <td>Team Leader, Kodland</td>
+        <td>Full-time team leader managing diverse projects, mentoring team members, and delivering impactful educational technology solutions.</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact" class="footer">
+  <h2 id="footer-heading">Let's Connect</h2>
+  <form>
+    <div class="form-group">
+      <input type="text" placeholder="First Name" id="first-name">
+      <input type="text" placeholder="Last Name" id="last-name">
+    </div>
+    <input type="email" placeholder="Email" id="e-mail">
+    <textarea placeholder="Message" id="message-box"></textarea>
+    <button type="submit" id="send-button">Send</button>
+  </form>
+  <div class="socials" id="social-links">
+    <a href="#">Twitter</a>
+    <a href="#">Instagram</a>
+    <a href="#">LinkedIn</a>
+  </div>
+  <p class="create">Created by Ece</p>
+</footer>
+
+
+</body>
+</html>
